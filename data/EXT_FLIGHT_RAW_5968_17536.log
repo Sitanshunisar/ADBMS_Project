@@ -1,0 +1,236 @@
+
+
+ LOG file opened at 10/19/26 22:55:28
+
+Field Definitions for table EXT_FLIGHT_RAW
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    YEAR                            CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    MONTH                           CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DAY_OF_MONTH                    CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    FL_DATE                         CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    OP_UNIQUE_CARRIER               CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    OP_CARRIER_AIRLINE_ID           CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    OP_CARRIER                      CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    TAIL_NUM                        CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    OP_CARRIER_FL_NUM               CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ORIGIN_AIRPORT_ID               CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ORIGIN_AIRPORT_SEQ_ID           CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ORIGIN_CITY_MARKET_ID           CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ORIGIN                          CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ORIGIN_CITY_NAME                CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ORIGIN_STATE_ABR                CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ORIGIN_STATE_NM                 CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DEST_AIRPORT_ID                 CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DEST_AIRPORT_SEQ_ID             CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DEST_CITY_MARKET_ID             CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DEST                            CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DEST_CITY_NAME                  CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DEST_STATE_ABR                  CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DEST_STATE_NM                   CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    CRS_DEP_TIME                    CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DEP_TIME                        CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DEP_DELAY                       CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    TAXI_OUT                        CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    WHEELS_OFF                      CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    WHEELS_ON                       CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    TAXI_IN                         CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    CRS_ARR_TIME                    CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ARR_TIME                        CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ARR_DELAY                       CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    CANCELLED                       CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    CANCELLATION_CODE               CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DIVERTED                        CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    CRS_ELAPSED_TIME                CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    ACTUAL_ELAPSED_TIME             CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    AIR_TIME                        CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    FLIGHTS                         CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DISTANCE                        CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    CARRIER_DELAY                   CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    WEATHER_DELAY                   CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    NAS_DELAY                       CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    SECURITY_DELAY                  CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    LATE_AIRCRAFT_DELAY             CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    FIRST_DEP_TIME                  CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    TOTAL_ADD_GTIME                 CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    LONGEST_ADD_GTIME               CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DIV_AIRPORT_LANDINGS            CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DIV_REACHED_DEST                CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DIV_ACTUAL_ELAPSED_TIME         CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DIV_ARR_DELAY                   CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DIV_DISTANCE                    CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DIV1_AIRPORT                    CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
+    DIV1_AIRPORT_ID                 CHAR (255)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace same as SQL Loader
