@@ -174,7 +174,7 @@ INSERT /*+ APPEND */ INTO flight_diversions (
 )
 SELECT 
     flight_id, first_dep_time, total_add_gtime, longest_add_gtime,
-    div_airport_landings, div_reached_dest, div_actual_elapsed_min,
+    div_airport_landings, div_reached_dest, div_actual_elapsed_time,
     div_arr_delay, div_distance, div1_airport, div1_airport_id
 FROM (
     SELECT /*+ USE_HASH(f s) */
