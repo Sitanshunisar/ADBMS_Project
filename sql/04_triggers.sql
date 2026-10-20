@@ -203,6 +203,34 @@ FROM (
 );
 COMMIT;
 
+PROMPT ================================================================
+PROMPT 4. Displaying Assessed DOT Tarmac Violations (> 180 min)
+PROMPT ================================================================
+
+SET HEADING ON;
+SET PAGESIZE 50;
+SET LINESIZE 200;
+
+COLUMN violation_id      FORMAT 999999        HEADING "Viol ID";
+COLUMN carrier_code      FORMAT A8            HEADING "Carrier";
+COLUMN flight_num        FORMAT 99999         HEADING "Flight #";
+COLUMN violation_type    FORMAT A26           HEADING "Violation Type";
+COLUMN metric_value_min  FORMAT 999,999       HEADING "Taxi (Min)";
+COLUMN fine_assessed_usd FORMAT $999,999.00   HEADING "Assessed Fine";
+COLUMN notes             FORMAT A42           HEADING "Audit Ledger Notes";
+
+SELECT 
+    v.violation_id,
+    f.carrier_code,
+    f.flight_num,
+    v.violation_type,
+    v.metric_value_min,
+    v.fine_assessed_usd,
+    v.notes
+FROM regulatory_violations v
+JOIN flight_operations f ON f.flight_id = v.flight_id
+ORDER BY v.metric_value_min DESC;
+
 PROMPT Testing Stored Procedure 1: Carrier Audits (DL and WN)...
 EXEC sp_carrier_performance_audit('DL');
 EXEC sp_carrier_performance_audit('WN');

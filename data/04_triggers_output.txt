@@ -1,0 +1,152 @@
+================================================================
+1. Creating Triggers
+================================================================
+
+Trigger created.
+
+No errors.
+
+Trigger created.
+
+No errors.
+
+Trigger created.
+
+No errors.
+================================================================
+2. Creating Stored Procedures
+================================================================
+
+Procedure created.
+
+No errors.
+
+Procedure created.
+
+No errors.
+================================================================
+3. Executing Historical Audit & Stored Procedure Tests
+================================================================
+Auditing existing flight records for historical tarmac breaches...
+
+33 rows created.
+
+
+Commit complete.
+
+================================================================
+4. Displaying Assessed DOT Tarmac Violations (> 180 min)
+================================================================
+
+Viol ID Carrier  Flight # Violation Type             Taxi (Min) Assessed Fine Audit Ledger Notes
+------- -------- -------- -------------------------- ---------- ------------- ------------------------------------------
+     66 YX           3451 TARMAC_ARRIVAL_EXCEEDED           291    $55,250.00 Historical DOT Tarmac Rule breach: YX-3451
+     33 YX           3451 TARMAC_ARRIVAL_EXCEEDED           291    $55,250.00 Historical DOT Tarmac Rule breach: YX-3451
+     62 G4           3733 TARMAC_ARRIVAL_EXCEEDED           283    $53,250.00 Historical DOT Tarmac Rule breach: G4-3733
+     29 G4           3733 TARMAC_ARRIVAL_EXCEEDED           283    $53,250.00 Historical DOT Tarmac Rule breach: G4-3733
+     16 OO           6398 TARMAC_ARRIVAL_EXCEEDED           266    $49,000.00 Historical DOT Tarmac Rule breach: OO-6398
+     49 OO           6398 TARMAC_ARRIVAL_EXCEEDED           266    $49,000.00 Historical DOT Tarmac Rule breach: OO-6398
+     43 MQ           3531 TARMAC_ARRIVAL_EXCEEDED           251    $45,250.00 Historical DOT Tarmac Rule breach: MQ-3531
+     10 MQ           3531 TARMAC_ARRIVAL_EXCEEDED           251    $45,250.00 Historical DOT Tarmac Rule breach: MQ-3531
+     19 OO           6438 TARMAC_ARRIVAL_EXCEEDED           249    $44,750.00 Historical DOT Tarmac Rule breach: OO-6438
+     13 MQ           3846 TARMAC_ARRIVAL_EXCEEDED           249    $44,750.00 Historical DOT Tarmac Rule breach: MQ-3846
+     52 OO           6438 TARMAC_ARRIVAL_EXCEEDED           249    $44,750.00 Historical DOT Tarmac Rule breach: OO-6438
+     46 MQ           3846 TARMAC_ARRIVAL_EXCEEDED           249    $44,750.00 Historical DOT Tarmac Rule breach: MQ-3846
+      3 AS             59 TARMAC_DEPARTURE_EXCEEDED         227    $39,250.00 Historical DOT Tarmac Rule breach: AS-59
+     36 AS             59 TARMAC_DEPARTURE_EXCEEDED         227    $39,250.00 Historical DOT Tarmac Rule breach: AS-59
+     47 MQ           3383 TARMAC_ARRIVAL_EXCEEDED           226    $39,000.00 Historical DOT Tarmac Rule breach: MQ-3383
+     14 MQ           3383 TARMAC_ARRIVAL_EXCEEDED           226    $39,000.00 Historical DOT Tarmac Rule breach: MQ-3383
+     42 MQ           3626 TARMAC_ARRIVAL_EXCEEDED           225    $38,750.00 Historical DOT Tarmac Rule breach: MQ-3626
+      9 MQ           3626 TARMAC_ARRIVAL_EXCEEDED           225    $38,750.00 Historical DOT Tarmac Rule breach: MQ-3626
+     57 OH           5590 TARMAC_ARRIVAL_EXCEEDED           221    $37,750.00 Historical DOT Tarmac Rule breach: OH-5590
+     24 OH           5590 TARMAC_ARRIVAL_EXCEEDED           221    $37,750.00 Historical DOT Tarmac Rule breach: OH-5590
+      1 MQ           3757 TARMAC_DEPARTURE_EXCEEDED         220    $37,500.00 Historical DOT Tarmac Rule breach: MQ-3757
+     12 MQ           4062 TARMAC_ARRIVAL_EXCEEDED           220    $37,500.00 Historical DOT Tarmac Rule breach: MQ-4062
+     34 MQ           3757 TARMAC_DEPARTURE_EXCEEDED         220    $37,500.00 Historical DOT Tarmac Rule breach: MQ-3757
+     45 MQ           4062 TARMAC_ARRIVAL_EXCEEDED           220    $37,500.00 Historical DOT Tarmac Rule breach: MQ-4062
+     48 DL           2413 TARMAC_ARRIVAL_EXCEEDED           216    $36,500.00 Historical DOT Tarmac Rule breach: DL-2413
+     15 DL           2413 TARMAC_ARRIVAL_EXCEEDED           216    $36,500.00 Historical DOT Tarmac Rule breach: DL-2413
+     40 AA           2550 TARMAC_ARRIVAL_EXCEEDED           210    $35,000.00 Historical DOT Tarmac Rule breach: AA-2550
+      7 AA           2550 TARMAC_ARRIVAL_EXCEEDED           210    $35,000.00 Historical DOT Tarmac Rule breach: AA-2550
+     41 MQ           3827 TARMAC_ARRIVAL_EXCEEDED           209    $34,750.00 Historical DOT Tarmac Rule breach: MQ-3827
+      8 MQ           3827 TARMAC_ARRIVAL_EXCEEDED           209    $34,750.00 Historical DOT Tarmac Rule breach: MQ-3827
+     20 YX           4717 TARMAC_ARRIVAL_EXCEEDED           201    $32,750.00 Historical DOT Tarmac Rule breach: YX-4717
+     53 YX           4717 TARMAC_ARRIVAL_EXCEEDED           201    $32,750.00 Historical DOT Tarmac Rule breach: YX-4717
+     44 DL           2806 TARMAC_ARRIVAL_EXCEEDED           196    $31,500.00 Historical DOT Tarmac Rule breach: DL-2806
+     11 DL           2806 TARMAC_ARRIVAL_EXCEEDED           196    $31,500.00 Historical DOT Tarmac Rule breach: DL-2806
+     56 AA           2167 TARMAC_ARRIVAL_EXCEEDED           195    $31,250.00 Historical DOT Tarmac Rule breach: AA-2167
+     23 AA           2167 TARMAC_ARRIVAL_EXCEEDED           195    $31,250.00 Historical DOT Tarmac Rule breach: AA-2167
+     17 OO           6399 TARMAC_ARRIVAL_EXCEEDED           193    $30,750.00 Historical DOT Tarmac Rule breach: OO-6399
+     60 G4           3193 TARMAC_ARRIVAL_EXCEEDED           193    $30,750.00 Historical DOT Tarmac Rule breach: G4-3193
+     27 G4           3193 TARMAC_ARRIVAL_EXCEEDED           193    $30,750.00 Historical DOT Tarmac Rule breach: G4-3193
+     50 OO           6399 TARMAC_ARRIVAL_EXCEEDED           193    $30,750.00 Historical DOT Tarmac Rule breach: OO-6399
+     65 UA           1370 TARMAC_ARRIVAL_EXCEEDED           191    $30,250.00 Historical DOT Tarmac Rule breach: UA-1370
+     32 UA           1370 TARMAC_ARRIVAL_EXCEEDED           191    $30,250.00 Historical DOT Tarmac Rule breach: UA-1370
+      5 AA            798 TARMAC_DEPARTURE_EXCEEDED         189    $29,750.00 Historical DOT Tarmac Rule breach: AA-798
+     39 UA           1834 TARMAC_DEPARTURE_EXCEEDED         189    $29,750.00 Historical DOT Tarmac Rule breach: UA-1834
+     38 AA            798 TARMAC_DEPARTURE_EXCEEDED         189    $29,750.00 Historical DOT Tarmac Rule breach: AA-798
+      6 UA           1834 TARMAC_DEPARTURE_EXCEEDED         189    $29,750.00 Historical DOT Tarmac Rule breach: UA-1834
+     35 AA           2773 TARMAC_DEPARTURE_EXCEEDED         186    $29,000.00 Historical DOT Tarmac Rule breach: AA-2773
+
+Viol ID Carrier  Flight # Violation Type             Taxi (Min) Assessed Fine Audit Ledger Notes
+------- -------- -------- -------------------------- ---------- ------------- ------------------------------------------
+      2 AA           2773 TARMAC_DEPARTURE_EXCEEDED         186    $29,000.00 Historical DOT Tarmac Rule breach: AA-2773
+     37 UA           1525 TARMAC_DEPARTURE_EXCEEDED         185    $28,750.00 Historical DOT Tarmac Rule breach: UA-1525
+     28 G4           1217 TARMAC_ARRIVAL_EXCEEDED           185    $28,750.00 Historical DOT Tarmac Rule breach: G4-1217
+      4 UA           1525 TARMAC_DEPARTURE_EXCEEDED         185    $28,750.00 Historical DOT Tarmac Rule breach: UA-1525
+     61 G4           1217 TARMAC_ARRIVAL_EXCEEDED           185    $28,750.00 Historical DOT Tarmac Rule breach: G4-1217
+     22 AA           3125 TARMAC_ARRIVAL_EXCEEDED           184    $28,500.00 Historical DOT Tarmac Rule breach: AA-3125
+     55 AA           3125 TARMAC_ARRIVAL_EXCEEDED           184    $28,500.00 Historical DOT Tarmac Rule breach: AA-3125
+     59 YX           4615 TARMAC_ARRIVAL_EXCEEDED           182    $28,000.00 Historical DOT Tarmac Rule breach: YX-4615
+     26 YX           4615 TARMAC_ARRIVAL_EXCEEDED           182    $28,000.00 Historical DOT Tarmac Rule breach: YX-4615
+     58 MQ           3474 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: MQ-3474
+     18 OO           6274 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: OO-6274
+     64 G4           1226 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: G4-1226
+     63 G4           1198 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: G4-1198
+     30 G4           1198 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: G4-1198
+     31 G4           1226 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: G4-1226
+     54 AA            542 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: AA-542
+     51 OO           6274 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: OO-6274
+     25 MQ           3474 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: MQ-3474
+     21 AA            542 TARMAC_ARRIVAL_EXCEEDED           181    $27,750.00 Historical DOT Tarmac Rule breach: AA-542
+
+66 rows selected.
+
+Testing Stored Procedure 1: Carrier Audits (DL and WN)...
+------------------------------------------------------------
+CARRIER OPERATIONAL AUDIT: DL (DL)
+------------------------------------------------------------
+Total Flights Tracked   :   94,140
+Cancelled Flights       :    2,261
+Diverted Flights        :      581
+Average Arrival Delay   : 12.33 mins
+DOT A14 On-Time Rate    : 73.09%
+------------------------------------------------------------
+
+PL/SQL procedure successfully completed.
+
+------------------------------------------------------------
+CARRIER OPERATIONAL AUDIT: WN (WN)
+------------------------------------------------------------
+Total Flights Tracked   :  124,994
+Cancelled Flights       :    1,419
+Diverted Flights        :      711
+Average Arrival Delay   : 13.06 mins
+DOT A14 On-Time Rate    : 69.57%
+------------------------------------------------------------
+
+PL/SQL procedure successfully completed.
+
+Testing Stored Procedure 2: Corridor Congestion (JFK -> LAX)...
+------------------------------------------------------------
+ROUTE CONGESTION REPORT: JFK -> LAX
+------------------------------------------------------------
+Distance               : 2475 miles
+Total Flights Flown    : 919
+Average Departure Delay: 25.86 mins
+Average Arrival Delay  : 12.84 mins
+Average Taxi-Out Time  : 30.98 mins
+------------------------------------------------------------
+
+PL/SQL procedure successfully completed.
+
